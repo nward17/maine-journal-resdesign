@@ -1,0 +1,168 @@
+/* HEADER.CSS CLASS FOR THE HEADER WHICH APPEARS ON EVERY PAGE */
+
+/* FULL SIZE HEADER */
+.header {
+	background: -webkit-linear-gradient(#1D2935 40%, #262626 40%); /* For Safari */
+	background: -o-linear-gradient(#1D2935 40%, #262626 40%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1D2935 40%, #262626 40%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1D2935 40%, #262626 90%); /* Standard syntax */
+	height: 125px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	z-index: 1;
+	border-bottom-width: 35px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+
+.header .search {
+	margin-top: -18px;
+	margin-right: 19%;
+	height: 30px;
+	width: auto;
+	float: right;
+}
+
+.header .searchBox {
+	margin-top: -10px;
+	margin-right: -250px;
+	float: right;
+	width: 195px;
+	height: 30px;
+	border: none;
+	background-color: transparent;
+}
+
+.header .browse {
+	float: left;
+	margin-top: -20px;
+	margin-left: 19.5%;
+	height: 53px;
+}
+
+.header .submit {
+	color: white;
+	text-decoration: none;
+	float: left;
+	margin-top: -22px;
+	margin-left: 10%;
+	font-size: 35pt;
+}
+
+/* UNIVERSITY OF MAINE LOGO AT FULL SIZE */
+.header .umaine_logo {
+	float: right;
+	width: 250px;
+	margin-right: 2.5%;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+/* MAINE JOURNAL LOGO AT FULL SIZE */
+.header .maine_journal_logo {
+	margin-left: 50px;
+	margin-top: -15px;
+	height: 160px;
+	font-size: 75px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/* COMPRESSED HEADER WHEN SCROLLING */
+.headerCompressed {
+	background-color: #666666;
+	height: 35px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	z-index: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+
+.headerCompressed .mj_logo {
+	margin-left: 5%;
+	margin-top: -15px;
+	width: auto;
+	height: 80px;
+}
+
+.headerCompressed .search {
+	margin-top: -65px;
+	margin-right: 19%;
+	float: right;
+}
+
+.headerCompressed .searchBox {
+	margin-top: -55px;
+	margin-right: 20.1%;
+	width: 195px;
+	height: 30px;
+	float: right;
+	border: none;
+	background-color: transparent;
+}
+.headerCompressed .browse {
+	color: white;
+	text-decoration: none;
+	float: left;
+	margin-top: -64px;
+	margin-left: 19.5%;
+	height: 53px;
+	font-size: 30pt;
+}
+
+.headerCompressed .submit {
+	color: white;
+	text-decoration: none;
+	float: left;
+	margin-top: -64px;
+	margin-left: 40.3%;
+	font-size: 30pt;
+}
+/* COMPRESSED UNIVERSITY OF MAINE LOGO WHEN SCROLLING */
+.headerCompressed .umaine_logo {
+	float: right;
+	width: 130px;
+	margin-right: 4.5%;
+	margin-top: 6px;
+	cursor: pointer;
+}
+/* COMPRESSED MAINE JOURNAL LOGO WHEN SCROLLING */
+.headerCompressed .maine_journal_logo {
+	background-image: url('../images/MJ-White.png');
+	margin-left: 50px;
+	margin-top: -3px;
+	font-size: 40px;
+	width: 200px;
+	height: 60px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/* CATEGORIES FOR THE HEADER */
+#header_cat1 {
+	margin-bottom: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	float: right;
+	margin-right: 400px;
+}
+#header_cat2 {
+	margin-bottom: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	float: right;
+}
+@media (max-width: 800px) {
+	.umaine_logo {
+		display: none;
+	}
+	.maine_journal_logo {
+		display: none;
+	}
+}

@@ -15,7 +15,7 @@
 					var logo = document.getElementById("maine_journal_logo");
 					header.className = "headerCompressed";
 					logo.className = "mj_logo";
-					logo.src = "/mjproject/images/MJ-White.png";
+					logo.src = "";
 				} else if (document.body.scrollTop < 125) {
 					var header = document.getElementById("header");
 					var logo = document.getElementById("maine_journal_logo");
@@ -32,7 +32,8 @@
 			<!-- LOAD OUR UMAINE LOGO -->
 			<div onclick="window.location = 'http://www.umaine.edu';"><img
 				id="umaine_logo" class="umaine_logo"
-				src="/mjproject/images/umaine.png" />
+				src="/mjproject/images/umaine.png" 
+				target="_blank"/>
 			</div>
 
 			<!-- LOAD OUR MAINE JOURNAL LOGO -->

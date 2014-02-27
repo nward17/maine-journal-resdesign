@@ -11,43 +11,46 @@
 	position: absolute;
 	left: 0px;
 	z-index: 1;
-	border-bottom-width: 35px;
-	border-bottom-style: solid;
+	border-bottom-width: 28px;
+	border-bottom-style: inset;
 	border-bottom-color: #666666;
 }
 
 .header .search {
-	margin-top: -18px;
+	margin-top: -19px;
 	margin-right: 19%;
-	height: 30px;
+	height: 25px;
 	width: auto;
 	float: right;
 }
 
 .header .searchBox {
-	margin-top: -10px;
-	margin-right: -250px;
+	margin-top: -15px;
+	margin-right: -122px;
 	float: right;
-	width: auto;
-	height: 30px;
+	width: 95px;
+	height: 18px;
 	border: none;
 	background-color: transparent;
 }
 
 .header .browse {
+	color: white;
+	text-decoration: none;
 	float: left;
-	margin-top: -20px;
+	margin-top: -18px;
 	margin-left: 19.5%;
 	height: 53px;
+	font-size: 15pt;
 }
 
 .header .submit {
 	color: white;
 	text-decoration: none;
 	float: left;
-	margin-top: -22px;
+	margin-top: -18px;
 	margin-left: 10%;
-	font-size: 35pt;
+	font-size: 15pt;
 }
 
 /* UNIVERSITY OF MAINE LOGO AT FULL SIZE */
@@ -72,13 +75,12 @@
 /* COMPRESSED HEADER WHEN SCROLLING */
 .headerCompressed {
 	background-color: #666666;
-	height: 35px;
+	height: 27px;
 	width: 100%;
 	position: fixed;
 	left: 0px;
 	z-index: 1;
-	border-bottom-width: 3px;
-	border-bottom-style: solid;
+
 	border-bottom-color: #666666;
 }
 
@@ -92,14 +94,16 @@
 .headerCompressed .search {
 	margin-top: -65px;
 	margin-right: 19%;
+	height: 25px;
+	width: auto;
 	float: right;
 }
 
 .headerCompressed .searchBox {
-	margin-top: -55px;
+	margin-top: -61px;
 	margin-right: 20.1%;
-	width: 195px;
-	height: 30px;
+	width: 95px;
+	height: 18px;
 	float: right;
 	border: none;
 	background-color: transparent;
@@ -111,7 +115,7 @@
 	margin-top: -64px;
 	margin-left: 19.5%;
 	height: 53px;
-	font-size: 30pt;
+	font-size: 15pt;
 }
 
 .headerCompressed .submit {
@@ -119,14 +123,14 @@
 	text-decoration: none;
 	float: left;
 	margin-top: -64px;
-	margin-left: 40.3%;
-	font-size: 30pt;
+	margin-left: 34.3%;
+	font-size: 15pt;
 }
 /* COMPRESSED UNIVERSITY OF MAINE LOGO WHEN SCROLLING */
 .headerCompressed .umaine_logo {
 	float: right;
-	width: 130px;
-	margin-right: 4.5%;
+	height: 20;
+	margin-right: 8%;
 	margin-top: 6px;
 	cursor: pointer;
 }

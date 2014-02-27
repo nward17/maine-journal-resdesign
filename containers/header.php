@@ -32,8 +32,7 @@
 			<!-- LOAD OUR UMAINE LOGO -->
 			<div onclick="window.location = 'http://www.umaine.edu';"><img
 				id="umaine_logo" class="umaine_logo"
-				src="/mjproject/images/umaine.png" 
-				target="_blank"/>
+				src="/mjproject/images/umaine.png" />
 			</div>
 
 			<!-- LOAD OUR MAINE JOURNAL LOGO -->

@@ -12,7 +12,7 @@
 	left: 0px;
 	z-index: 1;
 	border-bottom-width: 28px;
-	border-bottom-style: inset;
+	border-bottom-style: solid;
 	border-bottom-color: #666666;
 }
 
@@ -129,7 +129,7 @@
 /* COMPRESSED UNIVERSITY OF MAINE LOGO WHEN SCROLLING */
 .headerCompressed .umaine_logo {
 	float: right;
-	height: 20;
+	height: 0;
 	margin-right: 8%;
 	margin-top: 6px;
 	cursor: pointer;

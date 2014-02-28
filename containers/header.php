@@ -4,6 +4,7 @@
 		<!-- IMPORT OUR CSS, NAME THE SITE, AND ADD A FAVICON -->
 		<title>The Maine Journal</title>
 		<link rel="shortcut icon" href="images/favicon.ico" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	</head>
 	<body>
 
@@ -44,18 +45,38 @@
 			<!-- LOAD OUR BUTTONS -->
 			<!-- BROWSE -->
 			<div id="browse" class="browse">
-				Browse
+				<ul id="topMenu">
+				<li>
+					<a href="#">Browse</a>
+					<ul class="noJS">
+            			<li><a href="#">2009</a></li>
+            			<li><a href="#">2010</a></li>
+            			<li><a href="#">2011</a></li>
+            			<li><a href="#">2012</a></li>
+            			<li><a href="#">2013</a></li>
+            			<li><a href="#">2014</a></li>
+        			</ul>
+        		</li>
+				<li><a href="#">Submit</a></li>
 			</div>
 			<!-- SUBMIT -->
-			<a href="recommend/">
+			<!--<a href="recommend/">
 			<div id="submit" class="submit">
 				Submit
-			</div></a>
+			</div></a>-->
 
 			<!-- LOAD OUR SEARCH BOX -->
 			<img
 			id="search" class="search"
 			src="/mjproject/images/Buttons-5 copy.png" />
 			<input id="searchBox" class="searchBox" type="text" />
+			<script>$(function(){
+    			$('#topMenu').find('> li').hover(function(){
+        		$(this).find('ul')
+        		.removeClass('noJS')
+        		.stop(true, true).slideToggle('fast');
+    			});
+			});
+			</script
 
 		</div>

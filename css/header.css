@@ -44,14 +44,54 @@
 	font-size: 15pt;
 }
 
-.header .submit {
+/*.header .submit {
 	color: white;
 	text-decoration: none;
 	float: left;
 	margin-top: -18px;
 	margin-left: 10%;
 	font-size: 15pt;
+}*/
+
+/*MENU BAR
+!!bug in browse when scrolled to the top, can only drop down menu when at the bottom
+of browse button. Caused by moving the div.*/
+#topMenu,
+
+#topMenu ul {
+    list-style: none;
+    margin-top: 0px
 }
+#topMenu {
+
+}
+#topMenu > li {
+    float: left;
+    color: white;
+}
+#topMenu li a {
+	display: block;
+    margin-right: 80px;
+    text-decoration: none;
+    background: #666666;
+    color: white;
+}
+#topMenu ul {
+    position: absolute;
+    display: none;
+	z-index: 999;
+}
+#topMenu ul li a {
+    width: 80px;
+    margin-left: -40px;
+    font-size: 15px;
+    text-align: left;
+    padding:5px;
+}
+#topMenu li:hover ul.noJS {
+    display: block;
+}
+
 
 /* UNIVERSITY OF MAINE LOGO AT FULL SIZE */
 .header .umaine_logo {

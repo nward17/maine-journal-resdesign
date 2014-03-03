@@ -1,5 +1,13 @@
 /* HEADER.CSS CLASS FOR THE HEADER WHICH APPEARS ON EVERY PAGE */
 
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url('http://seancannon.com/_test/ellipsis.xml#ellipsis');
+}
 /* FULL SIZE HEADER */
 .header {
 	background: -webkit-linear-gradient(#1D2935 40%, #262626 40%); /* For Safari */

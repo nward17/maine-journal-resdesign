@@ -1,6 +1,13 @@
 <html>
 	<header>
 		<?php include 'containers/header.php'
+
+
+
+
+
+
+
 		?>
 		<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" />
@@ -19,26 +26,41 @@
 		<br />
 		<br />
 		<!-- MAIN CONTENT ARTICLES -->
-		<div class="textArticleBlock">
+		<div id="burns" class="textArticleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TITLE -->
-			<a class = "titleBlock" href="articles/dilorenzo">Philosophically
-			Studying the Female</a>
+			<a class = "titleBlock" href="articles/dilorenzo">The Sea: A Short Story</a>
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
-				Contrary to popular belief, Lorem Ipsum is not simply random text.
-				It has roots in a piece of classical Latin literature from 45 BC,
-				making it over 2000 years old. Richard McClintock,
-				a Latin professor at Hampden-Sydney College in Virginia,
-				looked up one of the more obscure Latin words, consectetur,
-				from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
-				discovered the undoubtable source. Lorem Ipsum comes from sections
-				1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes .10.32.
+				As an English Major, Christopher's primary study has been in literature, writing, 
+				phenomenology, and art. He started writing when he was in second grade, 
+				and his stories at that time were mostly concerned with his friends fending off alien invaders. 
+				His stories have changed since then, but he is still looking for his milieu...
+				<br />
+				<a href ="articles/burns/">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>
 
-		<div class="standardArticleBlock">
+		<div id="swanson" class="imageArticleBlock">
+			<!-- DILORENZO ARTICLE -->
+			<!-- ARTICLE TEASER IMAGE -->
+			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/swanson/SwansonBanner_1.jpg" /> </a>
+			<!-- ARTICLE TITLE -->
+			<a class = "titleBlock" href="articles/dilorenzo">An Artist's Process</a>
+			<!-- ARTICLE DESCRIPTION -->
+			<div class="articleDescription">
+				Glenn Swanson is a Senior Studio Art Major with a minor in Business Administration.
+				In her Junior year, Glenn began sculpting stone and has taken on bronze and wood sculpture as well.
+				Sculpture is an artistic avenue that Glenn has come to love and thrive in.
+				According to her professors, when Glenn graduates this May,
+				she will be on her way to success as a professional artist. Professor Ed Nadeau, who...
+				<a href ="articles/swanson/">Read more</a>
+			</div>
+			<!-- END OF DILORENZO ARTICLE -->
+		</div>
+
+		<div id="dilorenzo" class="standardArticleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
 			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>
@@ -49,34 +71,11 @@
 
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
-				Contrary to popular belief, Lorem Ipsum is not simply random text.
-				It has roots in a piece of classical Latin literature from 45 BC,
-				making it over 2000 years old. Richard McClintock,
-				a Latin professor at Hampden-Sydney College in Virginia,
-				looked up one of the more obscure Latin words, consectetur,
-			</div>
-			<!-- END OF DILORENZO ARTICLE -->
-		</div>
-
-		<div class="standardArticleBlock">
-			<!-- DILORENZO ARTICLE -->
-			<!-- ARTICLE TEASER IMAGE -->
-			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>
-
-			<!-- ARTICLE TITLE -->
-			<a class = "titleBlock" href="articles/dilorenzo">Philosophically
-			Studying the Female</a>
-
-			<!-- ARTICLE DESCRIPTION -->
-			<div class="articleDescription">
-				Contrary to popular belief, Lorem Ipsum is not simply random text.
-				It has roots in a piece of classical Latin literature from 45 BC,
-				making it over 2000 years old. Richard McClintock,
-				a Latin professor at Hampden-Sydney College in Virginia,
-				looked up one of the more obscure Latin words, consectetur,
-				from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
-				discovered the undoubtable source. Lorem Ipsum comes from sections
-				1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes .10.32.
+				Britnee is a fifth year Philosophy and Psychology double major who enjoys studying philosophy of mind,
+				phenomenology, and cognitive neuroscience.
+				She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable.
+				She is an officer for the Philosophy Club and for Phi Sigma...
+				<a href ="articles/dilorenzo/">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>

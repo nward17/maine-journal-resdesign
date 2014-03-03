@@ -34,7 +34,7 @@ $involvement = $_POST['involvement'];
 $awards = $_POST['awards'];
 
 //connect to the database
-$con = mysqli_connect($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+$con = mysqli_connect("localhost", "root", "asap4u2u", "mainejournal_nic");
 
 //create the query for inserting data into the 'reccommender' table
 $recommenderQuery = "INSERT INTO recommender (name, title, phone, email)
@@ -50,6 +50,31 @@ VALUES ('" . $recommended . "', '" . $studentName . "', '" . $studentEmail . "',
 //create some variables for use later on
 $result;
 $result1;
+$result2;
+
+	echo ($_FILES["uploaded_file"]["tmp_name"]);
+
+//Сheck that we have a file
+if((!empty($_FILES["uploaded_file"])) && ($_FILES['uploaded_file']['error'] == 0)) {
+  	  $filename = $_FILES['uploaded_file']['name'];
+      $newname = dirname(__FILE__).'/upload/'.$filename;
+      //Check if the file with the same name is already exists on the server
+      if (!file_exists($newname)) {
+        //Attempt to move the uploaded file to it's new place
+        chmod($_FILES['uploaded_file']['tmp_name'], 0777);
+        if ((move_uploaded_file($_FILES['uploaded_file']['tmp_name'],$newname))) {
+           echo "It's done! The file has been saved as: ".$newname;
+			$query = "INSERT into student (attachments) VALUES ('" . $newname . "')";
+			$result2 = mysqli_query($con, $query);
+        } else {
+           echo "Error: A problem occurred during file upload!";
+        }
+      } else {
+         echo "Error: File ".$_FILES["uploaded_file"]["name"]." already exists";
+      }
+} else {
+	//do nothing, no file uploaded
+}
 
 //check for a connection error
 if (mysqli_connect_errno()) {
@@ -61,5 +86,6 @@ if (mysqli_connect_errno()) {
 		$result = mysqli_query($con, $recommenderQuery);
 	}
 	$result1 = mysqli_query($con, $studentQuery);
+	//header ('Location: thankyou.php');
 }
 ?>

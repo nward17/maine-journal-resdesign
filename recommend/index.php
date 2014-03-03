@@ -2,6 +2,7 @@
 	<head>
 		<?php include '../containers/header.php'
 
+
 		?>
 		<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="../css/header.css" media="screen" />
@@ -75,7 +76,7 @@
 		<br />
 		<br />
 		<div class = "box">
-			<form name="form" action="recommend_query.php" method="post" onsubmit="return validateForm()">
+			<form enctype="multipart/form-data" name="form" action="recommend_query.php" method="post" onsubmit="return validateForm()">
 				<font size="20"><b>Maine Journal Recommendation</b></font>
 				<br />
 				<br />
@@ -98,7 +99,8 @@
 				<br />
 
 				<!-- CREATE A HIDDEN TEXTBOX CONTAINING THE DATA FOR IF THE STUDENT IS RECOMMENDED -->
-				<textarea name="isRecommended"id="isRecommended" style="display:none;">false</textarea>				
+				<textarea name="isRecommended"id="isRecommended" style="display:none;">false</textarea>								
+
 
 
 				<div id="recommender">
@@ -213,7 +215,9 @@
 					please attach them using the button below.</font>
 				<br />
 				<br />
-				<input type='file' name='upload'>
+				<input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+				Choose a file to upload:
+				<input name="uploaded_file" type="file" />
 				<br />
 				<br />
 				<input type="submit" value="Submit">

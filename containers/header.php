@@ -14,6 +14,8 @@
 				if (document.body.scrollTop > 125) {
 					var header = document.getElementById("header");
 					var logo = document.getElementById("maine_journal_logo");
+					
+					//bug when changing className, not sure what's going on
 					header.className = "headerCompressed";
 					logo.className = "mj_logo";
 					logo.src = "";
@@ -49,21 +51,14 @@
 				<li>
 					<a href="#">Browse</a>
 					<ul class="noJS">
-            			<li><a href="#">2009</a></li>
-            			<li><a href="#">2010</a></li>
-            			<li><a href="#">2011</a></li>
-            			<li><a href="#">2012</a></li>
-            			<li><a href="#">2013</a></li>
-            			<li><a href="#">2014</a></li>
+            			<li><a href="archives/2010-2011">2010-2011</a></li>
+            			<li><a href="archives/2011-2012">2011-2012</a></li>
+            			<li><a href="archives/2012-2013">2012-2013</a></li>
+            			<li><a href="archives/2013-2014">2013-2014</a></li>
         			</ul>
         		</li>
-				<li><a href="#">Submit</a></li>
+				<li><a href="recommend/">Submit</a></li>
 			</div>
-			<!-- SUBMIT -->
-			<!--<a href="recommend/">
-			<div id="submit" class="submit">
-				Submit
-			</div></a>-->
 
 			<!-- LOAD OUR SEARCH BOX -->
 			<img

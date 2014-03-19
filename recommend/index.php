@@ -1,5 +1,5 @@
 <html>
-	<head>
+	<header>
 		<?php include '../containers/header.php'
 
 
@@ -64,7 +64,7 @@
 			}
 
 		</script>
-	</head>
+	</header>
 	<body>
 		<br />
 		<br />

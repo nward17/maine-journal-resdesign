@@ -25,7 +25,7 @@
 		<br />
 		<br />
 		<br />
-		<!-- MAIN CONTENT ARTICLES -->
+		<!-- MAIN CONTENT ARTICLES HI -->
 		<div id="burns" class="textArticleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TITLE -->

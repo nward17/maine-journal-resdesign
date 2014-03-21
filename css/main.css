@@ -1,7 +1,7 @@
 /* MAIN.CSS FOR ALL PAGES */
 
 html, body {
-	background-color: #EDEDED;
+	background-color: #D6D5D5;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -10,7 +10,7 @@ html, body {
 /* THE MAIN CONTENT BOXES FOR ARTICLES */
 .standardArticleBlock {
 	display: table;
-	width: 60%;
+	width: 960px;
 	overflow: hidden;
 	position: relative;
 	margin-left: auto;
@@ -27,37 +27,46 @@ html, body {
 	margin-bottom: 15px;
 	color: inherit;
 	text-decoration: none;
-	text-align: left;
-	width: 50%;
-	height: 20%;
+	text-align: justify;
+	width: 470px;
 	color: black;
 	font-size: 28pt;
+	font-weight: bold;
+	font-family: 'Georgia';
+	padding-left: 10px;
 	float: left;
 }
 /* THE CSS FOR THE IMAGE OF EVERY ARTICLE */
 .standardArticleBlock .imageBlock {
-	width: 48%;
+	width: 470px;
+	height: 271px;
 	float: right;
 	margin-top: 5px;
 	margin-right: 6px;
-	margin-bottom: 5px;
-	height: 250px;
+	margin-bottom: 5px;	
 }
 /* THE CSS FOR THE DESCRIPTION OF EVERY ARTICLE */
 .standardArticleBlock .articleDescription {
 	float: left;
-	width: 45%;
-	height: 150px;
+	width: 470px;
 	color: black;
-	font-family: 'Helvetica';
-	line-height: 20px;
+	font-family: 'Gill Sans Light';
+	font-size: 14pt;
 	letter-spacing: .05em;
-	margin-left: 20px;
+	margin-left: 10px;
+}
+.standardArticleBlock .labelText {
+	font-family: "Gill Sans Light";
+	font-style: italic;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
 }
 
 .imageArticleBlock {
 	display: table;
-	width: 60%;
+	width: 960px;
 	overflow: hidden;
 	position: relative;
 	margin-left: auto;
@@ -74,37 +83,51 @@ html, body {
 .imageArticleBlock .titleBlock {
 	color: inherit;
 	text-decoration: none;
-	text-align: center;
-	max-width: 100%;
+	text-align: justify;
+	width: 835px;
 	color: black;
-	font-size: 22pt;
-	font-family: 'Helvetica';
-	margin-top: 15px;
+	font-size: 28pt;
+	font-weight: bold;
+	font-family: 'Georgia';
 	float: left;
+	padding-left: 2px;
+	padding-bottom: 5px;
 }
 /* THE CSS FOR THE IMAGE OF EVERY ARTICLE */
 .imageArticleBlock .imageBlock {
-	width: 100%;
+	width: 960px;
+	height: 554px;
 	text-align: center;
 	float: left;
+	padding-bottom: 55px;
 }
 /* THE CSS FOR THE DESCRIPTION OF EVERY ARTICLE */
 .imageArticleBlock .articleDescription {
 	float: right;
 	color: black;
-	background-color: white;
-	font-family: 'Helvetica';
-	line-height: 20px;
+	background-color: #F4F4F4;
+	font-family: 'Gill Sans Light';
 	letter-spacing: .05em;
-	font-size: 15px;
+	font-size: 14pt;
 	margin-top: -100px;
 	margin-right: 50px;
 	margin-left: 50px;
+	padding-left: 10px;
+	text-align: justify;
+	padding-right: 5px;
+}
+.imageArticleBlock .labelText {
+	font-family: "Gill Sans Light";
+	font-style: italic;
+	font-size: 11pt;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	padding-left: 5px;
 }
 
 .textArticleBlock {
 	display: table;
-	width: 60%;
+	width: 960px;
 	overflow: hidden;
 	position: relative;
 	margin-top: 50px;
@@ -123,26 +146,32 @@ html, body {
 	color: inherit;
 	text-decoration: none;
 	text-align: left;
-	width: 100%;
-	height: 35%;
+	width: 940px;
 	margin-bottom: 10px;
 	color: black;
-	font-size: 22pt;
-	font-family: 'Helvetica';
+	font-size: 28pt;
+	font-family: 'Georgia';
+	font-weight: bold;
 	float: left;
 }
 /* THE CSS FOR THE DESCRIPTION OF EVERY ARTICLE */
 .textArticleBlock .articleDescription {
 	margin-bottom: 10px;
 	float: left;
-	width: 100%;
-	height: 50%;
+	width: 945px;
 	color: black;
-	font-family: 'Helvetica';
+	font-family: "Gill Sans Light";
 	line-height: 20px;
 	letter-spacing: .05em;
-	font-size: 15px;
-	margin-left: 20px;
+	font-size: 14pt;
+	margin-left: 4px;
+	padding-right: 10px;
+}
+.textArticleBlock .labelText {
+	font-family: "Gill Sans Light";
+	font-style: italic;
+	font-size: 11pt;
+	margin-bottom: 5px;
 }
 /* THE BOX USED BY THE RECOMMEND AND SUBMIT PAGE */
 .box {
@@ -162,8 +191,9 @@ html, body {
 }
 
 .title {
-color: black;
+	color: black;
 	font-family: 'Georgia';
+	font-style: bold;
 	font-size: 45px;
 	padding: 30px;
 
@@ -189,3 +219,6 @@ color: black;
 	width:30%;
 	padding: 30px;
 }
+
+
+

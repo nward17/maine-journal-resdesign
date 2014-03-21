@@ -25,9 +25,10 @@
 		<br />
 		<br />
 		<br />
-		<!-- MAIN CONTENT ARTICLES HI -->
+		<!-- MAIN CONTENT ARTICLES -->
 		<div id="burns" class="textArticleBlock">
 			<!-- DILORENZO ARTICLE -->
+			<p class="labelText">Glenn Swanson - Studio Art</p>
 			<!-- ARTICLE TITLE -->
 			<a class = "titleBlock" href="articles/dilorenzo">The Sea: A Short Story</a>
 			<!-- ARTICLE DESCRIPTION -->
@@ -47,14 +48,16 @@
 			<!-- ARTICLE TEASER IMAGE -->
 			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/swanson/SwansonBanner_1.jpg" /> </a>
 			<!-- ARTICLE TITLE -->
-			<a class = "titleBlock" href="articles/dilorenzo">An Artist's Process</a>
+			
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
+				<p class="labelText">Glenn Swanson - Studio Art</p>
+				<a class = "titleBlock" href="articles/dilorenzo">An Artist's Process at the University of Maine</a>
+				<br />
 				Glenn Swanson is a Senior Studio Art Major with a minor in Business Administration.
 				In her Junior year, Glenn began sculpting stone and has taken on bronze and wood sculpture as well.
 				Sculpture is an artistic avenue that Glenn has come to love and thrive in.
-				According to her professors, when Glenn graduates this May,
-				she will be on her way to success as a professional artist. Professor Ed Nadeau, who...
+				According...
 				<a href ="articles/swanson/">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
@@ -64,6 +67,9 @@
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
 			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>
+			
+			<!-- ARITCLE LABEL -->
+			<p class="labelText">Britney Dilorenzo - Philosophy</p>
 
 			<!-- ARTICLE TITLE -->
 			<a class = "titleBlock" href="articles/dilorenzo">Philosophically
@@ -71,6 +77,7 @@
 
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
+
 				Britnee is a fifth year Philosophy and Psychology double major who enjoys studying philosophy of mind,
 				phenomenology, and cognitive neuroscience.
 				She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable.

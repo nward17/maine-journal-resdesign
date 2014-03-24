@@ -198,26 +198,30 @@ html, body {
 	padding: 30px;
 
 }
-
+/* ARTICLE PAGE */
 .story {
+	float: left;
 	color: black;
-	font-family: 'Helvetica';
+	font-family: 'Gill Sans Light';
 	line-height: 20px;
 	letter-spacing: .05em;
 	font-size: 15px;
-	width:30%;
+	width: 60%;
 	padding: 30px;
+	margin-top: 50px;
 }
 
 .bio {
 	float: right;
 	color: black;
-	font-family: 'Helvetica';
+	font-style:italic;
+	font-family: 'Gill Sans Light';
 	line-height: 20px;
 	letter-spacing: .05em;
 	font-size: 15px;
-	width:30%;
+	width:20%;
 	padding: 30px;
+	margin-top: 50px;
 }
 
 

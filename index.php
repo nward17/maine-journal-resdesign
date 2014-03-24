@@ -28,9 +28,9 @@
 		<!-- MAIN CONTENT ARTICLES -->
 		<div id="burns" class="textArticleBlock">
 			<!-- DILORENZO ARTICLE -->
-			<p class="labelText">Glenn Swanson - Studio Art</p>
+			<p class="labelText">Christopher Burns - English & Philosophy</p>
 			<!-- ARTICLE TITLE -->
-			<a class = "titleBlock" href="articles/dilorenzo">The Sea: A Short Story</a>
+			<a class = "titleBlock" href="articles/dilorenzo/index.php">The Sea: A Short Story</a>
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
 				As an English Major, Christopher's primary study has been in literature, writing, 
@@ -38,7 +38,7 @@
 				and his stories at that time were mostly concerned with his friends fending off alien invaders. 
 				His stories have changed since then, but he is still looking for his milieu...
 				<br />
-				<a href ="articles/burns/">Read more</a>
+				<a href ="articles/burns/index.php">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>
@@ -46,19 +46,19 @@
 		<div id="swanson" class="imageArticleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
-			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/swanson/SwansonBanner_1.jpg" /> </a>
+			<a href="articles/dilorenzo/index.php"> <img class="imageBlock" src="articles/swanson/SwansonBanner_1.jpg" /> </a>
 			<!-- ARTICLE TITLE -->
 			
 			<!-- ARTICLE DESCRIPTION -->
 			<div class="articleDescription">
 				<p class="labelText">Glenn Swanson - Studio Art</p>
-				<a class = "titleBlock" href="articles/dilorenzo">An Artist's Process at the University of Maine</a>
+				<a class = "titleBlock" href="articles/dilorenzo/index.php">An Artist's Process</a>
 				<br />
 				Glenn Swanson is a Senior Studio Art Major with a minor in Business Administration.
 				In her Junior year, Glenn began sculpting stone and has taken on bronze and wood sculpture as well.
 				Sculpture is an artistic avenue that Glenn has come to love and thrive in.
 				According...
-				<a href ="articles/swanson/">Read more</a>
+				<a href ="articles/swanson/index.php">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>
@@ -66,13 +66,13 @@
 		<div id="dilorenzo" class="standardArticleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
-			<a href="articles/dilorenzo"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>
+			<a href="articles/dilorenzo/index.php"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>
 			
 			<!-- ARITCLE LABEL -->
 			<p class="labelText">Britney Dilorenzo - Philosophy</p>
 
 			<!-- ARTICLE TITLE -->
-			<a class = "titleBlock" href="articles/dilorenzo">Philosophically
+			<a class = "titleBlock" href="articles/dilorenzo/index.php">Philosophically
 			Studying the Female</a>
 
 			<!-- ARTICLE DESCRIPTION -->
@@ -82,7 +82,7 @@
 				phenomenology, and cognitive neuroscience.
 				She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable.
 				She is an officer for the Philosophy Club and for Phi Sigma...
-				<a href ="articles/dilorenzo/">Read more</a>
+				<a href ="articles/dilorenzo/index.php">Read more</a>
 			</div>
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>

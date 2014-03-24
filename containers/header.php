@@ -24,7 +24,7 @@
 					var logo = document.getElementById("maine_journal_logo");
 					header.className = "header";
 					logo.className = "maine_journal_logo";
-					logo.src = "/mjproject/images/MaineJournal-Logo_white.png";
+					logo.src = "/maine_journal/redesign/images/MaineJournal-Logo_white.png";
 				}
 			};
 		</script>
@@ -35,13 +35,13 @@
 			<!-- LOAD OUR UMAINE LOGO -->
 			<div onclick="window.location = 'http://www.umaine.edu';"><img
 				id="umaine_logo" class="umaine_logo"
-				src="/mjproject/images/umaine.png" />
+				src="/maine_journal/redesign/images/umaine.png" />
 			</div>
 
 			<!-- LOAD OUR MAINE JOURNAL LOGO -->
 			<div onclick="window.location = '/mjproject/';"><img
 				id="maine_journal_logo" class="maine_journal_logo"
-				src="/mjproject/images/MaineJournal-Logo_white.png" />
+				src="/maine_journal/redesign/images/MaineJournal-Logo_white.png" />
 			</div>
 
 			<!-- LOAD OUR BUTTONS -->
@@ -57,13 +57,13 @@
             			<li><a href="archives/2013-2014">2013-2014</a></li>
         			</ul>
         		</li>
-				<li><a href="recommend/">Submit</a></li>
+				<li><a href="/recommend/">Submit</a></li>
 			</div>
 
 			<!-- LOAD OUR SEARCH BOX -->
 			<img
 			id="search" class="search"
-			src="/mjproject/images/Buttons-5 copy.png" />
+			src="/maine_journal/redesign/images/Buttons-5 copy.png" />
 			<input id="searchBox" class="searchBox" type="text" />
 			<script>$(function(){
     			$('#topMenu').find('> li').hover(function(){

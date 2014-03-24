@@ -26,7 +26,7 @@
 
 .header .search {
 	margin-top: -19px;
-	margin-right: 19%;
+	margin-right: 150px;
 	height: 25px;
 	width: auto;
 	float: right;
@@ -47,7 +47,7 @@
 	text-decoration: none;
 	float: left;
 	margin-top: -18px;
-	margin-left: 19.5%;
+	margin-left: 110px;
 	height: 53px;
 	font-size: 15pt;
 }
@@ -141,7 +141,7 @@ of browse button. Caused by moving the div.*/
 
 .headerCompressed .search {
 	margin-top: -65px;
-	margin-right: 19%;
+	margin-right: 150px;
 	height: 25px;
 	width: auto;
 	float: right;
@@ -161,7 +161,7 @@ of browse button. Caused by moving the div.*/
 	text-decoration: none;
 	float: left;
 	margin-top: -64px;
-	margin-left: 19.5%;
+	margin-left: 110px;
 	height: 53px;
 	font-size: 15pt;
 }

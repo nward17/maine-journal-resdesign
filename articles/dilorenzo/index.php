@@ -14,52 +14,68 @@
 		</div>
 		<div class = "story">
 			Abstract
+			<br>
 					<audio controls>
-  						<source src="/audio/DiLorenzoAudioSequence_1.mp3" type="audio/mpeg">
-  						<source src="/audio/DiLorenzoAudioSequence_1.ogg" type="audio/ogg">
+  						<source src="mjproject/articles/audio/DiLorenzoAudioSequence_1.mp3" type="audio/mpeg">
+  						<source src="mjproject/articles/audio/DiLorenzoAudioSequence_1.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Introduction
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_2.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_2.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Argument
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_3.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_3.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			The Habit-body, the Ability Structure, and Self-as-Agent
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_4.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_4.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Bodily Capacities, Worldly Properties, and the Intentional Arc
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_5.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_5.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Societal Pressure and Disempowerment
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_6.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_6.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Disciplined Diet and Self-alienation
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_7.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_7.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 			Conclusion: Illness and the Female Bodily Experience
+			<br>
 					<audio controls>
   						<source src="/audio/DiLorenzoAudioSequence_8.mp3" type="audio/mpeg">
   						<source src="/audio/DiLorenzoAudioSequence_8.ogg" type="audio/ogg">
 					Your browser does not support the audio tag.
+			<br>
 					</audio>
 		</div>
 		<div class = "bio">

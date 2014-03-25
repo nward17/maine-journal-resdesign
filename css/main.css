@@ -51,7 +51,7 @@ html, body {
 	width: 470px;
 	color: black;
 	font-family: 'Gill Sans Light';
-	font-size: 14pt;
+	font-size: 12pt;
 	letter-spacing: .05em;
 	margin-left: 10px;
 }
@@ -108,7 +108,7 @@ html, body {
 	background-color: #F4F4F4;
 	font-family: 'Gill Sans Light';
 	letter-spacing: .05em;
-	font-size: 14pt;
+	font-size: 12pt;
 	margin-top: -100px;
 	margin-right: 50px;
 	margin-left: 50px;
@@ -163,7 +163,7 @@ html, body {
 	font-family: "Gill Sans Light";
 	line-height: 20px;
 	letter-spacing: .05em;
-	font-size: 14pt;
+	font-size: 12pt;
 	margin-left: 4px;
 	padding-right: 10px;
 }

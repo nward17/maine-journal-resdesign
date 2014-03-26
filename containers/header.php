@@ -61,10 +61,10 @@
 			</div>
 
 			<!-- LOAD OUR SEARCH BOX -->
-			<img
+			<!-- <img
 			id="search" class="search"
 			src="/maine_journal/redesign/images/Buttons-5 copy.png" />
-			<input id="searchBox" class="searchBox" type="text" />
+			<input id="searchBox" class="searchBox" type="text" /> -->
 			<script>$(function(){
     			$('#topMenu').find('> li').hover(function(){
         		$(this).find('ul')

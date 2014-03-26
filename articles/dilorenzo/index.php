@@ -13,7 +13,14 @@
 			Philosophically Studying the Female
 		</div>
 		<div class = "story">
-			Abstract
+
+		</div>
+		<div class = "bio">
+			<img src="../../images/DiLorenzoProfile_1.jpg"
+			<br>
+			<p>Britnee is a fifth year Philosophy and Psychology double major who enjoys studying philosophy of mind, phenomenology, and cognitive neuroscience. She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable. She is an officer for the Philosophy Club and for Phi Sigma Tau Honor Society. Outside of school, Britnee likes doing crossword puzzles and playing guitar. </p>
+		<br>
+					Abstract
 			<br>
 					<audio controls>
   						<source src="mjproject/articles/audio/DiLorenzoAudioSequence_1.mp3" type="audio/mpeg">
@@ -77,11 +84,6 @@
 					Your browser does not support the audio tag.
 			<br>
 					</audio>
-		</div>
-		<div class = "bio">
-			<img src="../../images/DiLorenzoProfile_1.jpg"
-			<br>
-			<p>Britnee is a fifth year Philosophy and Psychology double major who enjoys studying philosophy of mind, phenomenology, and cognitive neuroscience. She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable. She is an officer for the Philosophy Club and for Phi Sigma Tau Honor Society. Outside of school, Britnee likes doing crossword puzzles and playing guitar. </p>
 		</div>
 
 

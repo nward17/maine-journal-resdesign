@@ -1,4 +1,5 @@
 
+<!--ARTICLE: DILORENZO--> 
 <html>
 	<header>
 		<?php include '../../containers/header.php'
@@ -10,16 +11,20 @@
 	</header>
 	<body>
 		<div class = "title">
-			Philosophically Studying the Female
+			<h1>Philosophically Studying the Female</h1>
+			<h2>Britnee DiLorenzo - Philosophy &amp Psychology</h2>
 		</div>
 		<div class = "story">
-
+			<p> "In the failure to achieve feminine ideals of beauty portrayed by the media, the woman experiences her body as defective, unresponsive to her desires, and as alien; thus, in the Western woman is cultivated an illness existential in nature."
+				<br>
+			- Excerpt from DiLorenzo's Philosophy Capstone Paper
+			</p>
 		</div>
 		<div class = "bio">
 			<img src="../../images/DiLorenzoProfile_1.jpg"
 			<br>
 			<p>Britnee is a fifth year Philosophy and Psychology double major who enjoys studying philosophy of mind, phenomenology, and cognitive neuroscience. She writes in a style that merges these areas of philosophy and psychology, which are not always distinguishable. She is an officer for the Philosophy Club and for Phi Sigma Tau Honor Society. Outside of school, Britnee likes doing crossword puzzles and playing guitar. </p>
-		<br>
+		<hr>
 					Abstract
 			<br>
 					<audio controls>

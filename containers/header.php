@@ -39,7 +39,7 @@
 			</div>
 
 			<!-- LOAD OUR MAINE JOURNAL LOGO -->
-			<div onclick="window.location = '/mjproject/';"><img
+			<div onclick="window.location = '/maine_journal/redesign/index.php';"><img
 				id="maine_journal_logo" class="maine_journal_logo"
 				src="/maine_journal/redesign/images/MaineJournal-Logo_white.png" />
 			</div>

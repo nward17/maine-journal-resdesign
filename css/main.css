@@ -200,20 +200,34 @@ html, body {
 }
 
 /* ARTICLE PAGE */
+.title h1{
+	float: top;
+	color: black;
+	font-family: 'Georgia';
+	text-align: center;
+	font-size: 60px;
+	width: 60%;
+	margin-top: 180px;
+}
+.title h2{
+	float: top;
+	color: black;
+	font-family: 'Georgia Light';
+	text-align: center;
+	font-size: 30px;
+	width: 60%;
+}
 .story {
-	float: left;
+	float: top;
 	color: black;
 	font-family: 'Gill Sans Light';
-	line-height: 20px;
-	letter-spacing: .05em;
-	font-size: 15px;
+	font-size: 20px;
 	width: 60%;
-	padding: 30px;
-	margin-top: 50px;
+	padding: 50px;
 }
 
 .bio {
-	float: right;
+	float: top;
 	color: black;
 	font-style:italic;
 	font-family: 'Gill Sans Light';
@@ -222,7 +236,8 @@ html, body {
 	font-size: 15px;
 	width:25%;
 	padding: 30px;
-	margin-top: 50px;
+	margin-top: -500px;  
+	margin-left: 850px;
 }
 
 

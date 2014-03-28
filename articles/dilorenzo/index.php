@@ -3,7 +3,7 @@
 <html>
 	<header>
 		<?php include '../../containers/header.php'
-?>
+		?>
 		<link rel="stylesheet" type="text/css" href="../../css/main.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="../../css/home.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="../../css/header.css" media="screen" />

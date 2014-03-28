@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />
+		
 	</header>
 	<body>
 		<!-- CREATES A LINE BREAK THUS ALLIGNING OUR ELEMENTS -->
@@ -19,7 +20,7 @@
 		<br />
 		<br />
 		<!-- MAIN CONTENT ARTICLES -->
-		<div id="burns" class="textArticleBlock">
+		<div id="burns" class="textArticleBlock articleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<p class="labelText">Christopher Burns - English & Philosophy</p>
 			<!-- ARTICLE TITLE -->
@@ -35,7 +36,7 @@
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>
 
-		<div id="swanson" class="imageArticleBlock">
+		<div id="swanson" class="imageArticleBlock articleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
 			<a href="articles/dilorenzo/index.php"> <img class="imageBlock" src="articles/swanson/SwansonBanner_1.jpg" /> </a>
@@ -56,7 +57,7 @@
 			<!-- END OF DILORENZO ARTICLE -->
 		</div>
 
-		<div id="dilorenzo" class="standardArticleBlock">
+		<div id="dilorenzo" class="standardArticleBlock articleBlock">
 			<!-- DILORENZO ARTICLE -->
 			<!-- ARTICLE TEASER IMAGE -->
 			<a href="articles/dilorenzo/index.php"> <img class="imageBlock" src="articles/dilorenzo/dilorenzo_teaser.jpg" /> </a>

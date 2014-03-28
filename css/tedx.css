@@ -1,0 +1,39 @@
+.livestream {
+	position: relative;
+	margin: auto;
+	width: 600px;
+	text-align: center;
+}
+
+#tedtext {
+	position: relative;
+	margin: auto;
+	width: 960px;
+	display: table;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 40px;
+	padding: 10px;
+	background-color: #F4F4F4;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+.studentTitle {
+	font-weight: bold;
+	font-family: 'Georgia';
+}
+
+.bodyText {
+	font-family: "Gill Sans Light";
+	font-size: 12pt;
+	letter-spacing: .05em;
+}
+
+.sectionTitle {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: 'Georgia';
+}

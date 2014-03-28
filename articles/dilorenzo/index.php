@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../../css/header.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="../../css/footer.css" media="screen" />
 	</header>
-	<body>
+	<body class="articleBody">
 		<div class = "title">
 			<h1>Philosophically Studying the Female</h1>
 			<h2>Britnee DiLorenzo - Philosophy &amp Psychology</h2>

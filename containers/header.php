@@ -58,6 +58,7 @@
         			</ul>
         		</li>
 				<li><a href="/recommend/">Submit</a></li>
+				<li><a href="/tedx/tedx.php">TEDxUMaine</a></li>
 			</div>
 
 			<!-- LOAD OUR SEARCH BOX -->

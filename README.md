@@ -1,6 +1,3 @@
-# Maine Journal
-## http://mainejournal.umaine.edu
-
 ### About
 The Maine Journal is a digital publication for showcasing the excellent work of undergraduate students at the University of Maine. Student work is published using a variety of digital media, to best represent the quality of the work. The Maine Journal highlights individual stories of academic excellence, identified through faculty recommendations, announcements of campus awards or fellowships, performing arts events, etc. The Maine Journal staff members connect with these students, collect and digitize their work, and conduct and record interviews that are published with the work, to provide context. The Maine Journal also manages an online portfolio system for students to organize, archive, and share original work with the university community and the public.
 
